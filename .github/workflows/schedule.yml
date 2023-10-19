@@ -2,7 +2,7 @@ name: Schedule
 
 on:
     schedule:
-     - cron: '55 16 * * *'
+     - cron: '00 17 * * *'
 
 jobs:
     testSchedule:
@@ -10,4 +10,4 @@ jobs:
 
         steps:
             - name: 'Run on schedule'
-              run: echo 'This test runs at 16h55' 🕒
+              run: echo 'This test runs at 17h00 🕒' 
