@@ -1,0 +1,13 @@
+name: Schedule
+
+on:
+    schedule:
+     - cron: "25 16 * * *"
+
+jobs:
+    testSchedule:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Run on schedule
+              run: echo "This test runs at 16h25 🕒"
