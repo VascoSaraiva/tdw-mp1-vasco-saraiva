@@ -14,7 +14,7 @@ export default function Index({ preview, allPosts }) {
     <>
       <Layout preview={preview}>
         <Head>
-          <title>Vasco Saraiva's Blog</title>
+          <title>Vasco Saraiva Blog</title>
         </Head>
         <Container>
           <Intro />
