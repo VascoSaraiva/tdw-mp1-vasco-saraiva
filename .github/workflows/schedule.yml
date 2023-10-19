@@ -2,12 +2,12 @@ name: Schedule
 
 on:
     schedule:
-     - cron: '00 17 * * *'
+     - cron: "11 17 * * *"
 
 jobs:
     testSchedule:
         runs-on: ubuntu-latest
 
         steps:
-            - name: 'Run on schedule'
-              run: echo 'This test runs at 17h00 🕒' 
+            - name: Run on schedule
+              run: echo "This test runs at 17h00 🕒"
