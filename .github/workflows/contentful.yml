@@ -1,0 +1,13 @@
+name: Contentful
+
+on:
+  repository_dispatch:
+   types: [contentful.deploy]
+
+jobs:
+  contentful:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Contentful warning
+        run: echo 'Contentful was changed!' 🥳
