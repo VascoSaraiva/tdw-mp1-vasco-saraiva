@@ -10,4 +10,4 @@ jobs:
 
     steps:
       - name: Contentful warning
-        run: echo 'Contentful was changed!' 🥳
+        run: echo 'Contentful was changed! 🥳' 
